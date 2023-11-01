@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#FFFFFF;
+	font-family:'Roboto', sans-serif;
+	font-weight:500;
+	}
+.form-control{
+	text-align:center !important;
+	font-size: 1.2em;
+	}
+#mainImage{
+	width:70%;
+	margin: 0 auto;
+	position: relative;
+}
+#logoContain{
+	position: absolute;
+	width: 300px; 
+	background-color: white;
+	border-radius: 25px;
+	bottom: 12px;
+	left:0;
+	right:0;
+	margin-left: auto; 
+    margin-right: auto;
+	border: solid thin #000000;
+}
+#login-containin{
+	margin-left: auto; 
+	margin-right: auto;
+	width: 450px;
+	padding-top: 25px;
+	text-align: center;
+}
+#bg {
+  position: fixed; 
+  top: -50%;  
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  z-index:-5;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+  max-width: 75%;
+  max-height: 75%;
+}
+.btn{
+	background-color: #0e2acc !important;
+	font-weight:bold;
+	color: #ffffff;
+}
+.message{
+	padding-top:10px;
+	text-align:center;
+	line-height:1.2;
+	}
+.clickMe{
+	cursor:pointer;
+}
+.clickMe:hover{
+	color:blue;
+}
+.innerDiv{
+	padding:20px;
+	border:solid thin #000;
+	border-radius:15px;
+	margin-top:30px;
+	margin-bottom:30px;
+	margin-left:5%;
+	width:90%;
+	box-shadow: 4px 4px 5px #000;
+	background-color: white;
+}
+.grid-container {
+  width: 100%;
+  display: grid;
+  column-gap: 0px;
+  row-gap: 0px;
+  border-top: solid thin #000;
+}
+@media (min-width: 1400px) {
+.grid-container {
+  grid-template-columns: 50% 50%;
+}
+.innerDiv{
+	margin-top:125px;
+	}
+}
+.grid-container {
+	width:100%;	
+}
+
+
