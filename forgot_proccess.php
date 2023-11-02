@@ -1,7 +1,5 @@
 <?php
-
-$database= "manageme";
-include('../../../server-config/iqconfig/secure.php'); 
+include('../../../server-config/iqconfig/secure-manage.php'); 
 		
 			$email = $_POST['email'];
 			
