@@ -30,7 +30,7 @@ session_destroy();
 <div style="background-color:lightyellow;width:100%;height:100%;"> 	
 <div id="login-containin">
 <h2 style="text-align: center;margin-top:0px;margin-bottom:25px;"><span style="color:#374CA0">L</span>ogin</h2>	 
-<form action="https://instantq.co.uk/login_form_proccess.php" method="POST" name="loginform" id="loginform">
+<form action="login_form_proccess.php" method="POST" name="loginform" id="loginform">
 <fieldset class="form-group">
 <input id="email" name="email" type="email" placeholder="Email" class="form-control">
 </fieldset>
