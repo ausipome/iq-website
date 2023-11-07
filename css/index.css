@@ -4,6 +4,7 @@ body{
 	background-color:#FFFFFF;
 	font-family:'Roboto', sans-serif;
 	font-weight:500;
+	min-width: 500px
 	}
 .form-control{
 	text-align:center !important;
@@ -13,6 +14,11 @@ body{
 	width:70%;
 	margin: 0 auto;
 	position: relative;
+}
+@media (min-width: 700px) {
+	#mainImage{
+		width:90%;
+	}
 }
 #logoContain{
 	position: absolute;
